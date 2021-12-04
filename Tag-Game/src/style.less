@@ -1,0 +1,96 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("./img/hack.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.root__main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.moves-container {
+    width: 4%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid;
+    border-color: green;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    -webkit-user-select: none;
+}
+
+.main__container-timer {
+    display: flex;
+    justify-content: center;
+    width: 6%;
+    margin-top: 1%;
+    border: 2px solid;
+    border-color: green;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    -webkit-user-select: none;
+}
+
+.main__container-start {
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 47.5%;
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: black;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    text-transform: capitalize;
+    transition: 2000ms;
+    outline: none;
+}
+
+.main__container-start:hover {
+    background-color: #2e76c4;
+    color: #7bc239;
+}
+
+.main__game-table {
+    margin-top: 1%;
+    margin-left: 41.5%;
+    background-color: black;
+    color: white;
+}
+
+
+#table-element {
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+    cursor: pointer;
+    transition: 300ms;
+    -webkit-user-select: none;
+}
+
+#table-element:hover {
+    color: #7bc239;
+    background-color: #2e76c4;
+    font-size: 43px;
+}
